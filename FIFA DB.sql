@@ -1,0 +1,102 @@
+DROP DATABASE IF EXISTS fifa_db;
+
+CREATE DATABASE IF NOT EXISTS fifa_db;
+
+use fifa_db;
+
+DROP TABLE IF EXISTS fifa_db;
+
+CREATE TABLE predicted_outputs (
+	name BIT NOT NULL,
+    nationality BIT NOT NULL,
+    age BIT NOT NULL,
+    ova BIT NOT NULL,
+    pot INT NOT NULL,
+    club INT NOT NULL,
+    age INT NOT NULL,
+    body_mass_index INT NOT NULL,
+    education BIT NOT NULL,
+    children INT NOT NULL,
+    pets INT NOT NULL,
+    probability FLOAT NOT NULL,
+    prediction BIT NOT NULL
+    );
+ 
+ CREATE TABLE fifa_db (
+	Name VARCHAR(64) NOT NULL,
+    Nationality VARCHAR(64) NOT NULL,
+    Age INT NOT NULL,
+    OVA INT NOT NULL,
+    POT INT NOT NULL,
+    Club VARCHAR(64) NOT NULL,
+    Positions VARCHAR(64) NOT NULL,
+    Height_cm INT NOT NULL,
+    Weight_kg INT NOT NULL,
+    Preferred_Foot VARCHAR(64) NOT NULL,
+    BOV INT NOT NULL,
+    Best_Position VARCHAR(64) NOT NULL,
+    Type_of_contract VARCHAR(64) NOT NULL,
+    Start_year INT NOT NULL,
+    End_year INT NOT NULL,
+    Value INT NOT NULL,
+    Wage INT NOT NULL,
+    Release_Clause INT NOT NULL,
+    Attacking_AVG INT NOT NULL,
+    Crossing INT NOT NULL,
+    Finishing INT NOT NULL,
+    Heading_Accuracy INT NOT NULL,
+    Short_Passing INT NOT NULL,
+    Volleys INT NOT NULL,
+    Skill_AVG INT NOT NULL,
+    Dribbling INT NOT NULL,
+    Curve INT NOT NULL,
+    FK_Accuracy INT NOT NULL,
+    Long_Passing INT NOT NULL,
+    Ball_Control INT NOT NULL,
+    Movement_AVG INT NOT NULL,
+    Acceleration INT NOT NULL,
+    Sprint_Speed INT NOT NULL,
+    Agility INT NOT NULL,
+    Reactions INT NOT NULL,
+    Balance INT NOT NULL,
+    Power_AVG INT NOT NULL,
+    Shot_Power INT NOT NULL,
+    Jumping INT NOT NULL,
+    Stamina INT NOT NULL,
+    Strength INT NOT NULL,
+    Long_Shots INT NOT NULL,
+    Mentality_AVG INT NOT NULL,
+    Aggression INT NOT NULL,
+    Interceptions INT NOT NULL,
+    Positioning INT NOT NULL,
+    Vision INT NOT NULL,
+    Penalties INT NOT NULL,
+    Composure INT NOT NULL,
+    Defending_AVG INT NOT NULL,
+    Marking INT NOT NULL,
+    Standing_Tackle INT NOT NULL,
+    Sliding_Tackle INT NOT NULL,
+    Goalkeeping_AVG INT NOT NULL,
+    GK_Diving INT NOT NULL,
+    GK_Handling INT NOT NULL,
+    GK_Kicking INT NOT NULL,
+    GK_Positioning INT NOT NULL,
+    GK_Reflexes INT NOT NULL,
+    Total_Stats INT NOT NULL,
+    Base_Stats INT NOT NULL,
+    `Weak_Foot_/5` BIT NOT NULL,
+    `Skill_Moves_/5` BIT NOT NULL,
+    `A/W` VARCHAR(64) NOT NULL,
+    `D/W` VARCHAR(64) NOT NULL,
+    `International_Reputation_/5` BIT NOT NULL,
+    PAC INT NOT NULL,
+    SHO INT NOT NULL,
+    PAS INT NOT NULL,
+    DRI INT NOT NULL,
+    DEF INT NOT NULL,
+    PHY INT NOT NULL
+    );
+    
+    SELECT * FROM fifa_db; #Executed to here
+    
+    
