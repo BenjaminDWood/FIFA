@@ -4,11 +4,11 @@ An analysis of player data from FIFA 21, taken from [Kaggle](https://www.kaggle.
 
 - Dropping and renaming columns as appropriate
 
-- Dealing with datatypes
+- Assigning relevant datatypes
 
-- Stripping formatting weight, height, currency markers etc.
+- Stripping and formatting weight, height, currency markers etc.
 
-- Converting monetary values consistently
+- Converting monetary values for consistency
 
 - Deriving new columns from existing data
 
