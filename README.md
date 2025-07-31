@@ -6,7 +6,7 @@ An analysis of player data from FIFA 21, taken from [Kaggle](https://www.kaggle.
 
 - Dealing with datatypes
 
-- Stripping formatting and weight/height markers
+- Stripping formatting weight, height, currency markers etc.
 
 - Converting monetary values consistently
 
