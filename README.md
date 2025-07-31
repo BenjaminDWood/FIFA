@@ -43,4 +43,6 @@ FIFA.ipynb - Initial runthrough of processing the raw data
 
 FIFA2.ipynb - Consolidated and expanding upon the initial processing
 
+ - The above notebooks were running slow due to cell output (a cause I did not understand at the time), so they are redundant, but have been kept due to including some of my thought process and note-taking etc.
+
 FIFA_Preprocessed - Preprocessed data with exploratory analysis included
